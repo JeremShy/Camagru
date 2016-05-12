@@ -69,7 +69,8 @@ function like(event) {
 			button.appendChild(document.createTextNode("Ne plus aimer"));
 			if (button.onclick != null)
 				button.onclick = null;
-			button.removeEventListener("click", like);
+			else
+				button.removeEventListener("click", like);
 			button.addEventListener("click", unlike);
 		}
 	}
@@ -105,7 +106,10 @@ function unlike(event) {
 			var button = document.getElementById("button_" + id);
 			button.removeChild(button.childNodes[0]);
 			button.appendChild(document.createTextNode("Aimer"));
-			button.removeEventListener("click", unlike);
+			if (button.onclick != null)
+				button.onclick = null;
+			else
+				button.removeEventListener("click", unlike);
 			button.addEventListener("click", like);
 		}
 	}
