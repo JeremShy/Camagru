@@ -1,0 +1,141 @@
+body {
+	background-color: #CCAD8F;
+}
+
+textarea {
+	vertical-align: top;
+}
+
+html {
+	min-width: 2146px;
+}
+
+form:not(#choice_form) {
+	width: 500px;
+	display: block;
+	margin : auto;
+	position: relative;
+	top: 30%;
+}
+
+#formulaire {
+	width: 500px;
+	display: block;
+	margin : auto;
+	position: relative;
+	top: 30%;
+}
+
+.error {
+	color : red;
+	width: 500px;
+	display: block;
+	margin: auto;
+}
+
+.info {
+	color : blue;
+	width: 500px;
+	display: block;
+	margin: auto;
+}
+
+#container {
+	position: relative;
+	width: 1500px;
+	margin: auto;
+	bottom: 20%;
+}
+
+#cam {
+	position: absolute;
+	top : 400px;
+}
+
+#choice {
+	padding-top: 50px;
+	background-color: #767B91;
+	width: 1000px;
+	height: 250px;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
+.choice_elem {
+	width: 150px;
+	height: 150px;
+}
+
+#startbutton {
+	cursor: not-allowed;
+}
+
+#result_div {
+	position: absolute;
+	top: 400px;
+	left: 50%;
+}
+
+#result {
+	height: 480px;
+	width: 640px;
+	visibility: hidden;
+}
+
+#savebutton {
+	position: relative;
+	visibility: hidden;
+	left: 80%;
+}
+
+#canvas {
+	visibility: hidden;
+}
+
+aside {
+	background-color: #255C99;
+	width : 20%;
+	height: 750px;
+	float: right;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+aside img {
+	width: 95%;
+	position: relative;
+	margin: auto;
+}
+
+.small_img {
+	width: 640px;
+	height: 480px;
+}
+
+article {
+	margin-bottom: 100px;
+}
+
+footer {
+	position: fixed;
+	background-color: #255C99;
+	width : 100%;
+	height: 100px;
+	bottom: 0;
+	line-height: 100px;
+	margin-top: 110px;
+}
+
+footer p {
+	color : #CCAD8F;
+	font-style: italic;
+	position: relative;
+	width: 500px;
+	margin: 0 auto;
+}
+
+/*@media (max-width: 2146px) {
+	aside {
+		width: 10%;
+	}
+}*/
