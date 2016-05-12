@@ -1,0 +1,4 @@
+AuthUserFile "/nfs/2015/j/jcamhi/http/MyWebSite/camagru/config/.htpasswd
+AuthName "Acces protégé"
+AuthType Basic
+Require valid-user
